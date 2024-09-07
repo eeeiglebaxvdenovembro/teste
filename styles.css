@@ -1,0 +1,94 @@
+/* Definindo fonte padrão */
+body {
+    font-family: 'Chakra Petch', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+}
+
+.site-header {
+    background-color: #003366;
+    color: white;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.site-header img {
+    margin-left: 20px;
+}
+
+.contato {
+    text-align: right;
+}
+
+.contato p {
+    margin: 5px 0;
+}
+
+.chamada {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #ffffff;
+}
+
+.chamada-texto {
+    max-width: 60%;
+}
+
+.chamada-texto h2 {
+    font-size: 24px;
+}
+
+.imagem-escola {
+    max-width: 35%;
+    height: auto;
+    margin-left: 20px;
+}
+
+.categoria {
+    padding: 20px;
+}
+
+.categoria h2 {
+    font-size: 22px;
+    margin-bottom: 15px;
+}
+
+.categoria-videos {
+    display: flex;
+    gap: 10px;
+}
+
+.categoria-videos img {
+    width: 150px;
+    height: auto;
+}
+
+.categoria2 {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #003366;
+    color: white;
+}
+
+.categoria2 .texto-grande {
+    font-size: 22px;
+}
+
+.categoria2-doc, .categoria2-projetos, .categoria2-redessociais {
+    width: 30%;
+}
+
+.link-branco {
+    color: white;
+    text-decoration: none;
+}
+
+.link-branco:hover {
+    text-decoration: underline;
+}
